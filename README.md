@@ -36,3 +36,28 @@ py -path to/program.py
 # frontend
 cd to frontend folder
 npm start
+
+
+# design considerations.
+
+# overall picture 
+from the assignment my assumption is that a prototype should be delivered showing the overall arcitecture in order to discus the next steps.
+
+for the frontend i have chosen a thin client to be run on user end. So no data upload nor calculations are preformed in the frontend, only precentation of result and user input.
+
+for the backend i have chosen the backend to access data here givin as a file but could be data in a database. All calculations are also run from the backend.
+
+# specific choices 
+React 
+i am not used to work with ui's so i picked the choice sugestet in the assignment.
+virtual DOM only renders the changed parts of the website.
+it is very popular and there for a big comunity base.
+
+Flask
+easy to learn API
+quick to setup
+
+Python
+the choice of the assignment, i could have used a compiled language instead of a scripting language which would code checks for error in the compile step.
+
+
