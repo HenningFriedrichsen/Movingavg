@@ -39,19 +39,18 @@ npm start
 
 
 # design considerations.
-
 # overall picture 
-from the assignment my assumption is that a prototype should be delivered showing the overall arcitecture in order to discus the next steps.
+from the assignment my assumption is that a prototype should be delivered showing the overall architecture in order to discus the next steps.
 
-for the frontend i have chosen a thin client to be run on user end. So no data upload nor calculations are preformed in the frontend, only precentation of result and user input.
+for the frontend i have chosen a thin client to be run on user end. So no data upload nor calculations are preformed in the frontend, only presentation of result and user input.
 
-for the backend i have chosen the backend to access data here givin as a file but could be data in a database. All calculations are also run from the backend.
+for the backend i have chosen the backend to access data here given as a file but could be data in a database. All calculations are also run from the backend.
 
 # specific choices 
 React 
-i am not used to work with ui's so i picked the choice sugestet in the assignment.
+i am not used to work with ui's so i picked the choice suggested in the assignment.
 virtual DOM only renders the changed parts of the website.
-it is very popular and there for a big comunity base.
+it is very popular and there for a big community base.
 
 Flask
 easy to learn API
@@ -68,6 +67,6 @@ request input
 data cleaning
 - add a tolerance to remove wrong data 
 
-averging calculation
-- right now 30 days means 30 points should be improved to mean calender days.
+averaging calculation
+- right now 30 days means 30 points should be improved to mean calendar days.
 - how to handle missing days for instance weekends, holidays or removed data.
