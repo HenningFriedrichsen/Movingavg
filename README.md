@@ -60,4 +60,14 @@ quick to setup
 Python
 the choice of the assignment, i could have used a compiled language instead of a scripting language which would code checks for error in the compile step.
 
+# Next steps / Improvements 
+request input
+- better input error handling.
+- expand to a matrix so multible graphs can be shown in the same chart.
 
+data cleaning
+- add a tolerance to remove wrong data 
+
+averging calculation
+- right now 30 days means 30 points should be improved to mean calender days.
+- how to handle missing days for instance weekends, holidays or removed data.
